@@ -9,7 +9,7 @@
 	</head>
 
 	<body>
-		<main id="config">
+		<main>
 			<h1>Démineur par Harmant Mathieu</h1>
 			<label>Nombres de lignes :</label>
 			<input type="number" name="lignes" id="lignes">
@@ -17,10 +17,11 @@
 			<input type="number" name="colonnes" id="colonnes">
 			<label>Nombres de mines :</label>
 			<input type="number" name="nb_mines" id="mines"><br>
-			<button onclick="validation_config()" id="créer">Créer</button>
-			<button onclick="restart()" id="recommencer">Recommencer</button>
+			<button id="creer">Créer</button>
+			<button id="recommencer">Recommencer</button>
 			<h2 id="etat_game">Commencez par créer une grille pour jouer !</h2>
 		</main>
+		<script src="js/jquery.js"></script> 
 		<script src="js/jeu.js"></script> 
 	</body>
 </html>
